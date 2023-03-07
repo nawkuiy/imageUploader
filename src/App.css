@@ -1,8 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('index.css');
+
+.App {
+  position: absolute;
+  width: 402px;
+  height: 469px;
+  left: 40%;
+  top: 20%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
 }
 
 .logo {
@@ -39,4 +47,27 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.heading {
+  font-size: var(--font-size-heading);
+  width: var(--text-width);
+  line-height: var(--line-height-heading);
+  margin: 36px auto 20px;
+}
+
+.instruction {
+  font-size: var(--font-size-instruction);
+  line-height: var(--line-height-instruction);
+  width: var(--text-width);
+  margin: auto;
+}
+
+.imageContainer {
+  margin: 30px auto 0;
+  width: 338px;
+  height: 218.9px;
+  background: #F6F8FB;
+  border: 1px dashed #97BEF4;
+  border-radius: 12px;
 }
